@@ -6,7 +6,7 @@ function find_projects
         # Filter anything which doesn't specify compiler type.
         [[ ! "$name" =~ ([a-zA-Z0-9]+)\.([a-zA-Z0-9]+) ]] && continue;
 
-        echo "$name/${BASH_REMATCH[1]}\.*"
+        echo "$name/main\.*"
     done
 }
 ## echo ${TEMPLATE/%FMT_BUILD_TARGETS%/"${PROJECT_LIST[@]}"}
