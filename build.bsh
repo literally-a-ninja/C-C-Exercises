@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 function find_projects
 {
     for name in *; do
