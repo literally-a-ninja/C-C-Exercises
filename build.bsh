@@ -18,8 +18,7 @@ function print_find_projects
         echo """
 # Project ${BASH_REMATCH[1]}
 add_executable(${BASH_REMATCH[1]} ${BASH_REMATCH[0]})
-target_include_directories(${BASH_REMATCH[1]} PRIVATE $(realpath ${BASH_REMATCH[1]}))
-set_target_properties(${BASH_REMATCH[1]} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG \${CMAKE_CURRENT_BINARY_DIR})"""
+target_include_directories(${BASH_REMATCH[1]} PRIVATE $(realpath ${BASH_REMATCH[1]}))"""
     done
 
 }
