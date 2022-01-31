@@ -1,4 +1,0 @@
-/home/johnny/Documents/ModernCppExercises/build/CMakeFiles/rebuild_cache.dir
-/home/johnny/Documents/ModernCppExercises/build/CMakeFiles/edit_cache.dir
-/home/johnny/Documents/ModernCppExercises/build/CMakeFiles/HelloWorld.gcc.dir
-/home/johnny/Documents/ModernCppExercises/build/CMakeFiles/HelloWorld.clang.dir
