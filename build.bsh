@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+cd "$(dirname ${BASH_SOURCE[0]})"
+
 function find_projects
 {
     for name in *; do
@@ -36,4 +38,4 @@ $(print_find_projects)
 cmake -S. -Bbuild
 cmake --build build
 
-rm CMakeLists.txt
+#rm CMakeLists.txt
